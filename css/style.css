@@ -1,112 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Josefin+Sans&display=swap');
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-li,
-a {
-    font-family: 'Chakra Petch', sans-serif;
-    font-weight: 400;
-    font-size: 26px;
-    color: #656579;
-    text-decoration: none
-}
-
-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px 10%;
+.inline-block {
+    vertical-align: top;
+    width: 50%;
+    margin-left: auto;
 }
 
 .logo {
-    cursor: ;
-    justify-content: flex-start;
+    width: 23%;
+    padding: 1%;
+    text-align: center;
 }
 
-.socials {
-    cursor: pointer;
+.nav {
+    width: 73%;
+    padding: 1%;
 }
 
-.nav_links {
-    list-style: none;
+.heroImg {
+    height: 600px;
+    padding: 25px;
 }
 
-.nav_links li {
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#footer {
+    background-color: #373737;
+    padding: center;
+}
+
+ul {
     display: inline-block;
-    padding: 0px 20px;
+    vertical-align: top;
+    padding:
 }
 
-.nav_links li a {
-    transition: all 0.3s ease 0s;
-}
 
-.nav_links:hover {
-    color: #C4C4C4;
-    font-size: larger;
-    transform: translate(1, 1);
-}
-
-.banner-card {
-    display: inline-flexbox;
-    justify-content: center;
-    height: 50px;
-}
-
-.banner-text h1 {
-    position: absolute;
-    top: 25%;
-    padding: 20px;
-    width: 674px;
-    height: 76px;
-    left: 387px;
-    top: 325.11px;
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 400px;
-    font-size: 60px;
-    line-height: 126.78%;
-    /* identical to box height, or 76px */
-    text-align: center;
-    color: #656579;
-}
-
-.banner-text p {
-    position: absolute;
-    top: 25%;
-    padding: 20px;
-    width: 674px;
-    height: 76px;
-    left: 387px;
-    top: 325.11px;
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 400px;
-    font-size: 60px;
-    line-height: 126.78%;
-    /* identical to box height, or 76px */
-    text-align: center;
-    color: #656579;
-}
-
-.banner-card button {
-    padding: 9px 25px;
-    background-color: rgba(255, 164, 26, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0;
-}
-
-.banner-card button:hover {
-    background-color: rgba(255, 164, 26, .8)
-}
-
-@media (max-width: 800px) {
-    .flex-container {
-        flex-direction: column;
-    }
 }
